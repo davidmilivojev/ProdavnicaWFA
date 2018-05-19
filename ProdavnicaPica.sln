@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prodavnica.UI", "Prodavnica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdavnicaPica.DataAccess", "ProdavnicaPica.DataAccess\ProdavnicaPica.DataAccess.csproj", "{D664B713-2FAF-4488-B6B1-1EC91E1BAA86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdavnicaPica.Domain", "ProdavnicaPica.Domain\ProdavnicaPica.Domain.csproj", "{A0BDB2F3-FA45-4554-A4C6-8A2E6251E9DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D664B713-2FAF-4488-B6B1-1EC91E1BAA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D664B713-2FAF-4488-B6B1-1EC91E1BAA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D664B713-2FAF-4488-B6B1-1EC91E1BAA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BDB2F3-FA45-4554-A4C6-8A2E6251E9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BDB2F3-FA45-4554-A4C6-8A2E6251E9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BDB2F3-FA45-4554-A4C6-8A2E6251E9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BDB2F3-FA45-4554-A4C6-8A2E6251E9DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
