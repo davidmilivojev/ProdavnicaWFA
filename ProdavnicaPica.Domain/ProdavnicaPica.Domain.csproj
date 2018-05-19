@@ -40,7 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\OperatorModel.cs" />
+    <Compile Include="Models\PiceModel.cs" />
     <Compile Include="Operacije.cs" />
+    <Compile Include="OperaterViewModel.cs" />
+    <Compile Include="PiceViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
