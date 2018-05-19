@@ -56,6 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\PiceRepository.cs" />
     <Compile Include="Repositories\OperaterRepository.cs" />
+    <Compile Include="Repositories\ProdajaRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
