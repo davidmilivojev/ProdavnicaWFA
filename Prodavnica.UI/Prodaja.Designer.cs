@@ -34,6 +34,7 @@
             this.listaPicaLbl = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.prodajaCbx = new System.Windows.Forms.ComboBox();
+            this.prodajaBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
@@ -58,6 +59,7 @@
             this.prodajPiceBtn.TabIndex = 12;
             this.prodajPiceBtn.Text = "Dodaj";
             this.prodajPiceBtn.UseVisualStyleBackColor = true;
+            this.prodajPiceBtn.Click += new System.EventHandler(this.prodajPiceBtn_Click);
             // 
             // kolicinaLbl
             // 
@@ -92,11 +94,21 @@
             this.prodajaCbx.Size = new System.Drawing.Size(202, 24);
             this.prodajaCbx.TabIndex = 8;
             // 
+            // prodajaBtn
+            // 
+            this.prodajaBtn.Location = new System.Drawing.Point(577, 387);
+            this.prodajaBtn.Name = "prodajaBtn";
+            this.prodajaBtn.Size = new System.Drawing.Size(133, 32);
+            this.prodajaBtn.TabIndex = 14;
+            this.prodajaBtn.Text = "Prodaj";
+            this.prodajaBtn.UseVisualStyleBackColor = true;
+            // 
             // Prodaja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.prodajaBtn);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.prodajPiceBtn);
             this.Controls.Add(this.kolicinaLbl);
@@ -120,5 +132,6 @@
         private System.Windows.Forms.Label listaPicaLbl;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.ComboBox prodajaCbx;
+        private System.Windows.Forms.Button prodajaBtn;
     }
 }

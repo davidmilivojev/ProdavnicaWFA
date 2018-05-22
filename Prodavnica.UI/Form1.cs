@@ -21,9 +21,9 @@ namespace Prodavnica.UI
         {
             CloseAllForms();
             Prodaja prodaja = new Prodaja();
-            //prodaja.MdiParent = this;
+            prodaja.MdiParent = this;
 
-            prodaja.WindowState = FormWindowState.Normal;
+            prodaja.WindowState = FormWindowState.Maximized;
             prodaja.ControlBox = false;
 
             prodaja.Show();
@@ -48,6 +48,18 @@ namespace Prodavnica.UI
 
                 for (int j = 0; j < formToClose.Length; j++)
                     formToClose[j].Dispose();
+        }
+
+        private void operaterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CloseAllForms();
+            Unos unos = new Unos();
+            unos.MdiParent = this;
+
+            unos.WindowState = FormWindowState.Maximized;
+            unos.ControlBox = false;
+
+            unos.Show();
         }
     }
 }

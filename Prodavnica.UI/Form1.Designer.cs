@@ -68,6 +68,7 @@
             this.operaterToolStripMenuItem.Name = "operaterToolStripMenuItem";
             this.operaterToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.operaterToolStripMenuItem.Text = "Unos";
+            this.operaterToolStripMenuItem.Click += new System.EventHandler(this.operaterToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -75,6 +76,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
